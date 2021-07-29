@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
   <title>Net Ninja Pro - The Book</title>
   <style>
     section {
@@ -20,6 +21,7 @@
   <nav class="navbar navbar-expand-md navbar-light">
     <div class="container-xxl">
       <a href="#intro" class="navbar-brand">
+        <i class="bi bi-book-half"></i>
         <span class="fw-bold text-secondary">Net Ninja Pro - the Book</span>
       </a>
       <!-- Toggle button for mobile nav -->
@@ -201,6 +203,114 @@
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- reviews -->
+  <section id="reviews" class="bg-light">
+    <div class="container-lg">
+      <div class="text-center">
+        <h2>Book Reviews</h2>
+        <p class="lead">What my students said about the book...</p>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="list-group">
+            <div class="list-group-item py-3">
+              <h5 class="mb-1">A must by for every aspiring web dev</h5>
+              <p class="mb-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur repellat quod
+                repellendus quos unde architecto? Ipsa, cum ad ipsam, numquam aperiam vero, nesciunt nostrum facere
+                ducimus eum adipisci placeat illum.
+              </p>
+              <small>Review by Mario</small>
+            </div>
+            <div class="list-group-item py-3">
+              <h5 class="mb-1">A must by for every aspiring web dev</h5>
+              <p class="mb-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur repellat quod
+                repellendus quos unde architecto? Ipsa, cum ad ipsam, numquam aperiam vero, nesciunt nostrum facere
+                ducimus eum adipisci placeat illum.
+              </p>
+              <small>Review by Luigi</small>
+            </div>
+            <div class="list-group-item py-3">
+              <h5 class="mb-1">A must by for every aspiring web dev</h5>
+              <p class="mb-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur repellat quod
+                repellendus quos unde architecto? Ipsa, cum ad ipsam, numquam aperiam vero, nesciunt nostrum facere
+                ducimus eum adipisci placeat illum.
+              </p>
+              <small>Review by Zara</small>
+            </div>
+            <div class="list-group-item py-3">
+              <h5 class="mb-1">A must by for every aspiring web dev</h5>
+              <p class="mb-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur repellat quod
+                repellendus quos unde architecto? Ipsa, cum ad ipsam, numquam aperiam vero, nesciunt nostrum facere
+                ducimus eum adipisci placeat illum.
+              </p>
+              <small>Review by Chanel</small>
+            </div>
+            <div class="list-group-item py-3">
+              <h5 class="mb-1">A must by for every aspiring web dev</h5>
+              <p class="mb-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur repellat quod
+                repellendus quos unde architecto? Ipsa, cum ad ipsam, numquam aperiam vero, nesciunt nostrum facere
+                ducimus eum adipisci placeat illum.
+              </p>
+              <small>Review by Gosia</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- contact form -->
+  <section id="contact">
+    <div class="container-lg">
+      <div class="text-center">
+        <h2>Get in Touch</h2>
+        <p class="lead">Questions to ask? Fill out the form to contact me directly...</p>
+      </div>
+      <div class="my-5 justify-content-center">
+        <div class="col-lg-6">
+          <form>
+            <label for="email" class="form-label">Email address:</label>
+            <div class="input-group mb-4">
+              <span class="input-group-text">
+                <i class="bi bi-envelope-fill"></i>
+              </span>
+              <input type="email" name="email" id="email" placeholder="e.g mario@example.com" class="form-control">
+            </div>
+
+
+            <label for="name" class="form-label">Name:</label>
+            <div class="input-group mb-4">
+              <span class="input-group-text">
+                <i class="bi bi-person-fill"></i>
+              </span>
+              <input type="text" class="form-control">
+            </div>
+
+            <label for="subject" class="form-label">What is your question about?</label>
+            <div class="input-group mb-4">
+              <span class="input-group-text">
+                <i class="bi bi-chat-right-dots-fill"></i>
+              </span>
+              <select name="subject" id="subject" class="form-select">
+                <option value="pricing" selected>Pricing query</option>
+                <option value="content">Content query</option>
+                <option value="other">Other query</option>
+              </select>
+            </div>
+
+            <div class="form-floating mb-4 mt-5">
+              <label for="query" class="form-label">Your query...</label>
+              <textarea class="form-control" name="query" id="query" style="height: 140px"></textarea>
+            </div>
+            <div class="mb-4 text-center">
+              <button type="submit" class="btn btn-secondary">Submit</button>
+            </div>
+          </form>
         </div>
       </div>
     </div>
