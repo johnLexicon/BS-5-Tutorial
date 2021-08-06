@@ -1,3 +1,6 @@
+// custom variables (must be added before the bootstrap import statement below)
+$primary: #c29938;
+$light: #fbf5e5;
+
 // import bootstrap 
 @import '../node_modules/bootstrap/scss/bootstrap';
-
