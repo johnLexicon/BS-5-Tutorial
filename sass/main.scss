@@ -2,5 +2,18 @@
 $primary: #c29938;
 $light: #fbf5e5;
 
+// Import the functions and variables
+@import '../node_modules/bootstrap/scss/functions';
+@import '../node_modules/bootstrap/scss/variables';
+
+// Own custom theme colors
+$custom-theme-colors: (
+  "altlight": #f2ebfa,
+  "altdark": #522192
+);
+
+// Merging our own custom theme colors with bootstrap's theme colors
+$theme-colors: map-merge($theme-colors, $custom-theme-colors);
+
 // import bootstrap 
 @import '../node_modules/bootstrap/scss/bootstrap';
