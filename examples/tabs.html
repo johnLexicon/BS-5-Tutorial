@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/main.min.css">
+  <title>Tabs example</title>
+</head>
+
+<body>
+  <div class="container my-5">
+    <nav>
+      <div id="nav-tab" class="nav nav-tabs" role="tablist">
+        <button id="nav-home-tab" class="nav-link active" data-bs-toggle="tab" data-bs-target="#nav-home" type="button"
+          role="tab" aria-controls="nav-home" aria-selected="true">
+          Home
+        </button>
+        <button id="nav-profile-tab" class="nav-link" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button"
+          role="tab" aria-controls="nav-profile" aria-selected="false">
+          Profile
+        </button>
+        <button id="nav-contact-tab" class="nav-link" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button"
+          role="tab" aria-controls="nav-contact" aria-selected="false">
+          Contact
+        </button>
+      </div>
+    </nav>
+    <div class="tab-content" id="nav-tabContent">
+      <div id="nav-home" class="tab-pane fade show active p-3" role="tabpanel" aria-labelledby="nav-home-tab">
+        <h2>Home</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique hic deserunt facilis consequuntur ipsam
+          eligendi debitis illo labore iure, nostrum nobis cupiditate, quis id enim esse, laboriosam rem quos magnam
+          maiores. Similique soluta, consequatur aperiam labore assumenda libero animi alias perspiciatis porro
+          exercitationem nemo amet praesentium sequi sed itaque. Delectus.</p>
+      </div>
+      <div id="nav-profile" class="tab-pane fade show p-3" role="tabpanel" aria-labelledby="nav-profile-tab">
+        <h2>Profile</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique hic deserunt facilis consequuntur ipsam
+          eligendi debitis illo labore iure, nostrum nobis cupiditate, quis id enim esse, laboriosam rem quos magnam
+          maiores. Similique soluta, consequatur aperiam labore assumenda libero animi alias perspiciatis porro
+          exercitationem nemo amet praesentium sequi sed itaque. Delectus.</p>
+      </div>
+      <div id="nav-contact" class="tab-pane fade show p-3" role="tabpanel" aria-labelledby="nav-contact-tab">
+        <h2>Contact</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique hic deserunt facilis consequuntur ipsam
+          eligendi debitis illo labore iure, nostrum nobis cupiditate, quis id enim esse, laboriosam rem quos magnam
+          maiores. Similique soluta, consequatur aperiam labore assumenda libero animi alias perspiciatis porro
+          exercitationem nemo amet praesentium sequi sed itaque. Delectus.</p>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
